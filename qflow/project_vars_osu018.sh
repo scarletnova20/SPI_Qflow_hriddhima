@@ -1,0 +1,13 @@
+#!/bin/tcsh -f
+set projectpath=/home/hriddhima/qflow_spi
+set techdir=/usr/local/share/qflow/tech/osu018
+set sourcedir=/home/hriddhima/qflow_spi/source
+set synthdir=/home/hriddhima/qflow_spi/synthesis
+set layoutdir=/home/hriddhima/qflow_spi/layout
+set techname=osu018
+set scriptdir=/usr/local/share/qflow/scripts
+set bindir=/usr/local/share/qflow/bin
+set logdir=/home/hriddhima/qflow_spi/log
+set synthlog=/home/hriddhima/qflow_spi/log/synth.log
+set placelog=/home/hriddhima/qflow_spi/log/place.log
+set routelog=/home/hriddhima/qflow_spi/log/route.log

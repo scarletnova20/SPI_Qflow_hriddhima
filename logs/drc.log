@@ -1,0 +1,31 @@
+Qflow DRC logfile created on Thu Jun 25 02:34:25 PM UTC 2026
+magic -dnull -noconsole  /home/hriddhima/qflow_spi/layout/run_drc_spi_top.tcl
+
+Magic 8.3 revision 105 - Compiled on Mon, 06 Dec 2021 22:32:27 +0200.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Input style lambda=0.10(p): scaleFactor=10, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Loading "/home/hriddhima/qflow_spi/layout/run_drc_spi_top.tcl" from command line.
+Reading LEF data from file /usr/local/share/qflow/tech/osu018/osu018_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read: Processed 2941 lines.
+spi_top: 10000 rects
+spi_top: 20000 rects
+spi_top: 30000 rects
+spi_top: 40000 rects
+spi_top: 50000 rects
+Processing timestamp mismatches: FILL, AND2X2, BUFX2, NAND2X1, AOI21X1, OAI21X1, NOR2X1, XNOR2X1, MUX2X1, INVX1, DFFSR, INVX2, AOI22X1, NAND3X1, CLKBUF1, INVX4, OR2X2, OAI22X1, INVX8, NOR3X1, XOR2X1.
+drc = 3
+DRC complete. 3 minor errors (pin boundary related).
+Continuing.
+GDS generation proceeding.
